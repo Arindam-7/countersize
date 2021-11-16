@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <>
             <nav>
-                <Button className="btn"><NavLink to="/" className="navItems" exact>Counter</NavLink></Button>
+                <Button className="btn"><NavLink to="/countersize/" className="navItems" exact>Counter</NavLink></Button>
                 <Button className="btn"><NavLink to="/size" className="navItems" exact>Size</NavLink></Button>
             </nav>
         </>
